@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="C:\Users\achos_000\Downloads\LEARN Academy\Week 1\jeopardy.js"></script> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="C:\Users\achos_000\Downloads\LEARN Academy\Week 1\jeopardy.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
+    <meta charset="utf-8">
+    <script type="text/javascript" src="C:\Users\achos_000\Downloads\LEARN Academy\Week 1\jeopardy.js"></script>
+    <title>Math Jeopardy</title>
+  </head>
+  <body>
+    <h1><input class="restart" type="button" value="JEOPARDY!" onclick="window.location.reload()" /></h1>
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-2 cat1">
+          <p class="category">ROOT OF ALL EVIL</p>
+
+            <div class="row">
+              <div class="col-sm-2">
+                <!-- <a href="jeopardy_index.html" onclick="return popitup('jeopardy_index.html')" target="_blank"></a> -->
+                <input id="12" class="button" type="button" value="$100" onclick="checkPosition(12)" target="_blank"/>
+
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-2">
+                <input id="14" class="button" type="button" value="$200" onclick="checkPosition(14)" target="_blank"/>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-2">
+                <input id="16" class="button" type="button" value="$300" onclick="checkPosition(16)" target="_blank"/>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-2">
+                <input id="18" class="button" type="button" value="$400" onclick="checkPosition(18)" target="_blank"/>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-2">
+                <input id="110" class="button" type="button" value="$500" onclick="checkPosition(110)"/>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-2 cat2">
+          <p class="category">RE-ROOTING POWER</p>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="22" class="button" type="button" value="$100" onclick="checkPosition(22)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="24" class="button" type="button" value="$200" onclick="checkPosition(24)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="26" class="button" type="button" value="$300" onclick="checkPosition(26)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="28" class="button" type="button" value="$400" onclick="checkPosition(28)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="210" class="button" type="button" value="$500" onclick="checkPosition(210)"/>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-2 cat3">
+          <p class="category">POWER OVERWHELMING</p>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="32" class="button" type="button" value="$100" onclick="checkPosition(32)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="34" class="button" type="button" value="$200" onclick="checkPosition(34)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="36" class="button" type="button" value="$300" onclick="checkPosition(36)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="38" class="button" type="button" value="$400" onclick="checkPosition(38)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="310" class="button" type="button" value="$500" onclick="checkPosition(310)"/>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-2 cat4">
+          <p class="category">POWERS, PLANTS, ROOTS</p>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="42" class="button" type="button" value="$100" onclick="checkPosition(42)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="44" class="button" type="button" value="$200" onclick="checkPosition(44)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="46" class="button" type="button" value="$300" onclick="checkPosition(46)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="48" class="button" type="button" value="$400" onclick="checkPosition(48)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="410" class="button" type="button" value="$500" onclick="checkPosition(410)"/>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-2 cat5">
+          <p class="category">DON'T BE A SQUARE</p>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="52" class="button" type="button" value="$100" onclick="checkPosition(52)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="54" class="button" type="button" value="$200" onclick="checkPosition(54)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="56" class="button" type="button" value="$300" onclick="checkPosition(56)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="58" class="button" type="button" value="$400" onclick="checkPosition(58)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="510" class="button" type="button" value="$500" onclick="checkPosition(510)"/>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-2 cat6">
+          <p class="category">GIMME DAT CUBE, THO</p>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="62" class="button" type="button" value="$100" onclick="checkPosition(62)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="64" class="button" type="button" value="$200" onclick="checkPosition(64)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="66"class="button" type="button" value="$300" onclick="checkPosition(66)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="68" class="button" type="button" value="$400" onclick="checkPosition(68)"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-2">
+              <input id="610" class="button" type="button" value="$500" onclick="checkPosition(610)"/>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

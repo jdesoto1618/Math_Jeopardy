@@ -1,0 +1,59 @@
+body {
+  background-color: #071791;
+  /*font-family: 'Oswald', sans-serif;*/
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  text-align: center;
+  font-size: 5em;
+  color: #ffdb5c;
+  margin-bottom: 0.5em;
+  /* gradient from #cba139 to
+  #ffdb5c */
+}
+
+.restart {
+  border: none;
+  background-color: #071791;
+}
+
+.category {
+  color: white;
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+.container-fluid {
+  margin-left: 6.25em;
+  position: absolute;
+}
+
+p {
+  font-family: 'Passion One', cursive;
+  font-size: 2em;
+  color: #ffdb5c;
+  padding-bottom: 1em;
+}
+
+.cat1, .cat2, .cat3, .cat4, .cat5, .cat6 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.button {
+  background-color: #071791;
+  border: black solid;
+  color: #ffdb5c;
+  padding: 0.75em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
